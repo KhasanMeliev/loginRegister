@@ -10,6 +10,7 @@ const Register = () => {
     e.preventDefault();
     if (details.name === "") {
       swal("Error!", "Name isn't blank", "error");
+      
       return false;
     } else if (details.email === "") {
       swal("Error!", "Email isn't blank", "error");
